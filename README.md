@@ -1,8 +1,8 @@
-Wine Quality – End-to-End Data Preprocessing Pipeline
+##Wine Quality – End-to-End Data Preprocessing Pipeline
 
 A complete implementation of a structured data preprocessing pipeline applied to the Wine Quality dataset. This project demonstrates how cleaning, transformation, feature selection, and dimensionality reduction impact machine learning model performance.
 
-📌 Project Objective
+#📌 Project Objective
 
 To implement and evaluate a complete data preprocessing workflow including:
 
@@ -20,7 +20,7 @@ Model Performance Comparison
 
 The goal is to clearly demonstrate the Before vs After impact of preprocessing techniques on classification accuracy.
 
-📂 Dataset Information
+#📂 Dataset Information
 
 Dataset: Wine Quality (Red Wine)
 
