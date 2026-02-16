@@ -1,8 +1,8 @@
-##Wine Quality – End-to-End Data Preprocessing Pipeline
+# Wine Quality – End-to-End Data Preprocessing Pipeline
 
 A complete implementation of a structured data preprocessing pipeline applied to the Wine Quality dataset. This project demonstrates how cleaning, transformation, feature selection, and dimensionality reduction impact machine learning model performance.
 
-#📌 Project Objective
+## 📌 Project Objective
 
 To implement and evaluate a complete data preprocessing workflow including:
 
@@ -20,7 +20,7 @@ Model Performance Comparison
 
 The goal is to clearly demonstrate the Before vs After impact of preprocessing techniques on classification accuracy.
 
-#📂 Dataset Information
+## 📂 Dataset Information
 
 Dataset: Wine Quality (Red Wine)
 
@@ -38,7 +38,7 @@ Quality ≥ 6 → Good Wine (1)
 
 Quality < 6 → Bad Wine (0)
 
-🧠 Machine Learning Problem
+## 🧠 Machine Learning Problem
 
 Binary classification using:
 
@@ -48,8 +48,8 @@ Evaluation metric:
 
 Accuracy
 
-🔎 Project Pipeline
-1️⃣ Exploratory Data Analysis (EDA)
+## 🔎 Project Pipeline
+### 1️⃣ Exploratory Data Analysis (EDA)
 
 Performed before any preprocessing.
 
@@ -89,7 +89,7 @@ Correlation heatmap
 
 Boxplots
 
-2️⃣ Data Cleaning
+### 2️⃣ Data Cleaning
 Steps Performed:
 
 Removed duplicate rows
@@ -106,7 +106,7 @@ Improved dataset consistency
 
 Stabilized feature distributions
 
-3️⃣ Data Transformation
+### 3️⃣ Data Transformation
 
 Performed after train-test split to prevent data leakage.
 
@@ -132,7 +132,7 @@ Correlation structure remained unchanged
 
 Standardization improved model stability
 
-4️⃣ Feature Selection
+### 4️⃣ Feature Selection
 
 Two methods were implemented:
 
@@ -152,7 +152,7 @@ Minimal performance loss
 
 Improved interpretability
 
-5️⃣ Dimensionality Reduction (PCA)
+### 5️⃣ Dimensionality Reduction (PCA)
 
 Principal Component Analysis applied after scaling.
 
@@ -168,7 +168,7 @@ Slight drop in accuracy due to compression
 
 Significant dimensionality reduction achieved
 
-📊 Model Performance Comparison
+## 📊 Model Performance Comparison
 
 Logistic Regression was trained at multiple stages:
 
@@ -180,7 +180,7 @@ PCA	2 Principal Components
 
 Performance comparison chart included in notebook.
 
-📈 Key Learnings
+## 📈 Key Learnings
 
 Data cleaning improves reliability and robustness.
 
@@ -192,7 +192,7 @@ PCA enables compression but may slightly reduce accuracy.
 
 Structured preprocessing significantly affects model behavior.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 
@@ -206,15 +206,15 @@ Seaborn
 
 Scikit-learn
 
-📁 Repository Structure
-Wine-Quality-Preprocessing/
+## 📁 Repository Structure
+Wine-Quality-Preprocessing
 │
 ├── winequality-red.csv
 ├── Wine_Preprocessing.ipynb
 ├── README.md
 └── Report.pdf
 
-🚀 How to Run
+## 🚀 How to Run
 
 Clone the repository
 
@@ -224,7 +224,7 @@ Open the notebook in Jupyter / Google Colab
 
 Run cells sequentially
 
-🎯 Project Outcomes
+## 🎯 Project Outcomes
 
 This project demonstrates:
 
